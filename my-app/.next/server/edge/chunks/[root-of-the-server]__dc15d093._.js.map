@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 21, "column": 0}, "map": {"version":3,"sources":["turbopack:///[project]/src/middleware.ts"],"sourcesContent":["import { cookies } from \"next/headers\";\nimport { NextResponse } from \"next/server\";\n\n// export async function middleware() {\n//   const cookie = await cookies();\n//   const jwt = cookie.get(\"jwt\");\n//   if (jwt) {\n//     return NextResponse.redirect('/');\n//   }\n// }\n"],"names":[],"mappings":";;CAGA,uCAAuC;CACvC,oCAAoC;CACpC,mCAAmC;CACnC,eAAe;CACf,yCAAyC;CACzC,MAAM;CACN,IAAI"}}]
+}
