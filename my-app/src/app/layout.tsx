@@ -16,6 +16,7 @@ export const metadata: Metadata = {
   title: "ChatWheel.io",
   description:
     "Welcome,to the ChatWheel.io.Here you can talking with random peoples",
+  keywords: ["онлайн чат, чат сайт, мессенджер онлайн, чат платформа, веб чат"],
   icons: {
     icon: [
       { url: "./favicon.ico" },
