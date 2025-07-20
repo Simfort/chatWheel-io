@@ -1,5 +1,8 @@
+"use client";
 import { X } from "lucide-react";
+import { useActionState } from "react";
 import { createPortal } from "react-dom";
+import signup from "../lib/signup";
 
 export default function SignUpModal({
   setSignFlag,
@@ -8,6 +11,9 @@ export default function SignUpModal({
   setSignFlag: (arg: boolean) => void;
   setLogFlag: (arg: boolean) => void;
 }) {
+  const [state, action] = useActionState(signup, {
+    errors: {},
+  });
   const handleOpenOtherModal = () => {
     setSignFlag(false);
     setLogFlag(true);
@@ -16,7 +22,7 @@ export default function SignUpModal({
     <div id="modal">
       <form
         className="gap-10 text-black bg-white flex flex-col pt-5 pb-5 pl-10 pr-10 rounded-[10px]"
-        action="">
+        action={action}>
         <button
           className="cursor-pointer w-[30px] hover:opacity-65"
           onClick={() => setSignFlag(false)}
@@ -48,6 +54,17 @@ export default function SignUpModal({
             name="password"
           />
         </label>
+        <ul>
+          {state.errors.passwordLength && (
+            <li className="text-red-500">Min password length is 6.</li>
+          )}
+          {state.errors.propertyExisted && (
+            <li className="text-red-500">One of some property is existed.</li>
+          )}
+          {state.errors.hasUser && (
+            <li className="text-red-500">Username or email is used.</li>
+          )}
+        </ul>
         <p>
           If you have registered account,just{" "}
           <button
