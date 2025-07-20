@@ -70,9 +70,9 @@ var __TURBOPACK__imported__module__$5b$next$5d2f$internal$2f$font$2f$google$2f$g
 ;
 const metadata = {
     title: "ChatWheel.io",
-    description: "Welcome,to the ChatWheel.io.Here you can talking with random peoples",
+    description: " ",
     keywords: [
-        "онлайн чат, чат сайт, мессенджер онлайн, чат платформа, веб чат"
+        " "
     ],
     icons: {
         icon: [
@@ -109,12 +109,12 @@ function RootLayout({ children }) {
             children: children
         }, void 0, false, {
             fileName: "[project]/src/app/layout.tsx",
-            lineNumber: 49,
+            lineNumber: 48,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/layout.tsx",
-        lineNumber: 48,
+        lineNumber: 47,
         columnNumber: 5
     }, this);
 }

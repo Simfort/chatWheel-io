@@ -58,11 +58,13 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$x$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__X$3e$__ = __turbopack_context__.i("[project]/node_modules/lucide-react/dist/esm/icons/x.js [app-client] (ecmascript) <export default as X>");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2d$dom$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react-dom/index.js [app-client] (ecmascript)");
+"use client";
 ;
 ;
 ;
 function SignUpModal(param) {
     let { setSignFlag, setLogFlag } = param;
+    ;
     const handleOpenOtherModal = ()=>{
         setSignFlag(false);
         setLogFlag(true);
@@ -81,19 +83,19 @@ function SignUpModal(param) {
                         size: 30
                     }, void 0, false, {
                         fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                        lineNumber: 24,
+                        lineNumber: 26,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 20,
+                    lineNumber: 22,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
                     children: "Sign Up"
                 }, void 0, false, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 26,
+                    lineNumber: 28,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -106,13 +108,13 @@ function SignUpModal(param) {
                             name: "username"
                         }, void 0, false, {
                             fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                            lineNumber: 29,
+                            lineNumber: 31,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 27,
+                    lineNumber: 29,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -125,13 +127,13 @@ function SignUpModal(param) {
                             name: "email"
                         }, void 0, false, {
                             fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                            lineNumber: 37,
+                            lineNumber: 39,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 35,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("label", {
@@ -144,13 +146,13 @@ function SignUpModal(param) {
                             name: "password"
                         }, void 0, false, {
                             fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                            lineNumber: 45,
+                            lineNumber: 47,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 43,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -163,7 +165,7 @@ function SignUpModal(param) {
                             children: "log in"
                         }, void 0, false, {
                             fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                            lineNumber: 53,
+                            lineNumber: 55,
                             columnNumber: 11
                         }, this),
                         " ",
@@ -172,7 +174,7 @@ function SignUpModal(param) {
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 51,
+                    lineNumber: 53,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -181,18 +183,18 @@ function SignUpModal(param) {
                     children: "Sign Up"
                 }, void 0, false, {
                     fileName: "[project]/src/app/ui/SignUpModal.tsx",
-                    lineNumber: 60,
+                    lineNumber: 62,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/ui/SignUpModal.tsx",
-            lineNumber: 17,
+            lineNumber: 19,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/ui/SignUpModal.tsx",
-        lineNumber: 16,
+        lineNumber: 18,
         columnNumber: 5
     }, this), document.body);
 }

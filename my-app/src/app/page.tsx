@@ -1,9 +1,7 @@
-// components/Chat.tsx
 "use client";
 import { useEffect, useState } from "react";
 import NonAuth from "./ui/NonAuth";
 import cookiesFormat from "./lib/cookiesFormat";
-import Head from "next/head";
 
 export default function Home() {
   const [hasJwt, setHasJwt] = useState(false);
